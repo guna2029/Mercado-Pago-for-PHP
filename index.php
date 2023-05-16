@@ -1,6 +1,6 @@
 <?php
 
-$access_token = "TEST-384795573456031-032615-f5c4423be1199f62e7da86b1e1ae8058-421062713";
+$access_token = "YOUR_ACCESS_TOKEN";
 require_once 'vendor/autoload.php';
 
 MercadoPago\SDK::setAccessToken($access_token);
